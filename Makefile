@@ -21,6 +21,6 @@ btestexplicit:
 	$(CC) $(CFLAGS) $(LIBS) -o btest bits.c btest.c decl.c tests.o 
 
 clean:
-	rm -f *.o btest fshow ishow *~
+	rm -f btest fshow ishow
 
 
